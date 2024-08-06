@@ -1,0 +1,30 @@
+
+.navbar {
+
+    background-color: white;
+    height: 4.375rem;
+    padding: 0 4.75rem;
+
+}
+
+.navbar__container {
+    .navbar__logo {
+        width: 1.8125rem;
+        margin-right: 4.1875rem;
+        .navbar__link-container{
+            .navbar__link{
+                margin: 0 2rem;
+                color: #A2A2A2;
+
+            }
+
+        }
+
+    }
+
+}
+.navbar__logo{
+    width: 29px;
+    height: 47px;
+    margin-left: 58px;
+}

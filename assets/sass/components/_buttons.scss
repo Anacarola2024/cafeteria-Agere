@@ -1,0 +1,35 @@
+
+
+
+
+
+.navbar__button {
+    font-size: 1rem;
+    padding: .4375rem .5rem;
+
+    &.navbar__button--passive {
+        border: solid #989797;;
+        border-width: .0625rem;
+        color: #989797;
+        transition: 500ms ease;
+        &:hover {
+            border: solid #454545;
+            border-width: .0625rem;
+            color: black;
+        }
+    }
+
+    &.navbar__button--active {
+        border: solid #4CA866;
+        background-color:#4CA866 ;
+        border-width: .0625rem;
+        color: white;
+        transition: 500ms ease;
+        &:hover {
+            background-color: #9DCFAB;
+            border: solid #9DCFAB;
+            border-width: .0625rem;
+            color: #454545;
+        }
+    }
+}
